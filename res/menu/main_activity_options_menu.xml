@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/miSettings" android:title="@string/action_settings"></item>
+    <item android:id="@+id/miServiceStart" android:title="@string/menu_start_service"></item>
+    <item android:id="@+id/miServiceRestart" android:title="@string/menu_restart_service"></item>
+    <item android:id="@+id/miServiceStop" android:title="@string/menu_stop_service"></item>
+</menu>

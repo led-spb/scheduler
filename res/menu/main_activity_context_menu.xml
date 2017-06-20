@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/miGroupExecute" android:visible="true">
+        <item android:id="@+id/miExecuteScript" android:title="@string/menu_execute_script"/>
+        <item android:id="@+id/miEnableScript" android:title="@string/menu_enable_script"/>
+        <item android:id="@+id/miDisableScript" android:title="@string/menu_disable_script"/>
+    </group>
+    <group android:id="@+id/miGroupLogging">
+        <item android:id="@+id/miEnableLog" android:title="@string/menu_enable_log"/>
+        <item android:id="@+id/miShowLog" android:title="@string/menu_show_log"/>
+        <item android:id="@+id/miClearLog" android:title="@string/menu_clear_log"/>
+        <item android:id="@+id/miDisableLog" android:title="@string/menu_disable_log"/>
+    </group>
+
+    <group>
+        <item android:id="@+id/miTaskEdit" android:title="@string/menu_edit_task"/>
+    </group>
+
+</menu>

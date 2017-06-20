@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:persistent="false" android:title="Task name"></EditTextPreference>
+    <EditTextPreference android:persistent="false" android:title="Command"></EditTextPreference>
+    <SwitchPreference android:persistent="false" android:title="Enabled"></SwitchPreference>
+    <SwitchPreference android:persistent="false" android:title="Logging"></SwitchPreference>
+</PreferenceScreen>

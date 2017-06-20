@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="160dp" android:minHeight="40dp" android:updatePeriodMillis="3600000" android:initialLayout="@layout/widget_default" android:configure="ru.led.scheduler.MainActivity"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

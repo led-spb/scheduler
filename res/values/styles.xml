@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="widget">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="widget.small" parent="@style/widget">
+        <item name="android:textSize">10.0dip</item>
+    </style>
+    <style name="widget.small2" parent="@style/widget">
+        <item name="android:textSize">11.0dip</item>
+    </style>
+    <style name="widget.medium" parent="@style/widget">
+        <item name="android:textSize">12.0dip</item>
+    </style>
+    <style name="widget.large" parent="@style/widget">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="window.transparent" parent="android:@Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/transparent</item>
+    	<!--  <item name="android:windowBackground">@android:color/transparent</item> -->
+    	<item name="android:windowContentOverlay">@null</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowIsFloating">true</item>
+    	<item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

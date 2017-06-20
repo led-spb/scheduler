@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:padding="@dimen/widget_margin" >
+
+    <TextView android:gravity="right|center" android:id="@+id/widget_update_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:text="update time" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/widget.small" />
+    <TextView android:textStyle="bold" android:id="@+id/widget_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="header" android:layout_below="@id/widget_update_time" android:layout_centerHorizontal="true" style="@style/widget.medium" />
+    <TextView android:id="@+id/widget_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="amount" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/widget.large" />
+    <TextView android:id="@+id/widget_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="detials" android:layout_below="@id/widget_amount" android:layout_centerHorizontal="true" style="@style/widget.small2" />
+    <TextView android:gravity="center" android:id="@+id/widget_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="footer" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/widget.small" />
+</RelativeLayout>

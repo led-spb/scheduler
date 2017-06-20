@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTaskName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:gravity="center|start|top"
+        android:layout_toLeftOf="@+id/btnTaskImage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/editTaskName"
+        android:layout_centerInParent="true"
+        android:gravity="center|start"
+        android:width="140dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTaskCommand"
+        android:layout_below="@+id/editTaskName"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:gravity="start|top" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editTaskCommand"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView3"
+        android:gravity="start|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Command"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editTaskName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/editTaskCommand"
+        android:gravity="center|start"
+        android:layout_toLeftOf="@+id/editTaskName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Parameters"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editTaskCommand"
+        android:layout_alignBottom="@+id/editText3"
+        android:gravity="center|start"
+        android:layout_toLeftOf="@+id/editTaskCommand"
+        android:layout_alignParentLeft="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Widget"
+        android:id="@+id/checkTaskType"
+        android:layout_below="@+id/editText3"
+        android:layout_toRightOf="@+id/textView3"
+        android:checked="false"
+        android:layout_alignRight="@+id/editText3" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/btnTaskImage"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
